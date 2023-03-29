@@ -1,0 +1,50 @@
+.formaTambla{
+        width: 100%;
+        border: 1px solid #000; 
+        
+}
+
+.clue{
+    padding: 18PX 0;
+    text-align:left;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    Font-Weight: bold;
+    background:rgb(2, 87, 54) ;
+    color:aliceblue;
+}
+
+.clue:hover{
+    background:rgb(2, 87, 54) ;
+}
+
+th,td {
+    width: 10%;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    vertical-align: top;
+    border: 1px solid #000;
+    padding: 12px 0;
+    background:azure;
+}
+
+td:nth-child(even), th:nth-child(even) {
+    background:rgb(177, 248, 224);
+}
+
+th:hover, td:hover{
+    background: rgb(81, 176, 178);
+}
+
+.elemento{
+    background:rgb(2, 87, 54) ;
+    color:aliceblue;
+    padding: 14px 0;
+    line-height: 24px;
+    font-size: 30px;
+}
+
+.elemento:hover{
+    background:rgb(2, 87, 54) ;
+}
